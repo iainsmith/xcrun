@@ -4,7 +4,6 @@ jobs:
 - job: 'Test'
 
   pool:
-    name: "$(imageName) - $(python.version)"
     vmImage: '$(imageName)'
 
   strategy:
